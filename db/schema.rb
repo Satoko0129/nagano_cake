@@ -61,7 +61,7 @@ ActiveRecord::Schema.define(version: 2023_06_29_105905) do
     t.string "first_name_kana"
     t.string "postal_code"
     t.string "address"
-    t.string "phone_number"
+    t.string "telephone_number"
     t.boolean "is_customer_status", default: false, null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
